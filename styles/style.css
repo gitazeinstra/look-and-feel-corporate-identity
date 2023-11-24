@@ -5,7 +5,19 @@
     --accent-color-2: #7faec5;
     --text-color: #384b61;
 
+    /*shadows*/
+    --light-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 
+    /*borders*/
+    --border: 5px;
+
+    /*fonts*/
+    --body-font: 'Open Sans', sans-serif;
+    --title-font: 'Raleway', sans-serif;
+
+    /*font sizes*/
+    --title: 3rem;
+    --p: 1.3;
 }
 
 * {
