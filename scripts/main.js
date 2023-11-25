@@ -13,3 +13,20 @@ const showMenu = (toggleId, navId) =>{
 }
 
 showMenu('nav__toggle','nav__menu')
+
+//navbar fade in/out
+const navbar = document.querySelector('header');
+
+// const scrollBtn = document.querySelector('.scroll-up')
+
+window.addEventListener('scroll', function () {
+    const scrollTop = window.scrollY;
+
+    if (scrollTop > 60) {
+        navbar.classList.add('solid');
+        // scrollBtn.style.display = "block";
+    } else {
+        navbar.classList.remove('solid');
+        // scrollBtn.style.display = "none";
+    }
+});
