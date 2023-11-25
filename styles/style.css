@@ -9,7 +9,7 @@
     --light-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 
     /*borders*/
-    --border: 5px;
+    --soft-border: 5px;
 
     /*fonts*/
     --body-font: 'Open Sans', sans-serif;
@@ -28,11 +28,18 @@
     font-family: var(--body-font);
 }
 
-ul {
+section {
+    width: 100%;
+    height: fit-content;
+}
+
+/*navigation style*/
+
+.nav__menu ul {
     list-style: none;
 }
 
-a {
+.nav__menu a {
     text-decoration: none;
 }
 
@@ -93,6 +100,30 @@ a {
 
 .nav__close {
     opacity: 0;
+}
+
+/*landingpage styling*/
+.home {
+    overflow: hidden;
+    height: 115vh;
+    background: url("../assets/img/background.jpg") no-repeat;
+    background-size: cover;
+
+    /*wave pattern*/
+    clip-path: polygon(100% 0%, 0% 0% , 0.00% 97.54%, 2.00% 97.47%, 4.00% 97.26%, 6.00% 96.92%, 8.00% 96.46%, 10.00%
+    95.89%, 12.00% 95.22%, 14.00% 94.48%, 16.00% 93.67%, 18.00% 92.83%, 20.00% 91.98%, 22.00% 91.13%, 24.00% 90.32%,
+    26.00% 89.56%, 28.00% 88.87%, 30.00% 88.28%, 32.00% 87.79%, 34.00% 87.42%, 36.00% 87.18%, 38.00% 87.08%, 40.00%
+    87.12%, 42.00% 87.29%, 44.00% 87.60%, 46.00% 88.04%, 48.00% 88.59%, 50.00% 89.23%, 52.00% 89.96%, 54.00% 90.75%,
+    56.00% 91.59%, 58.00% 92.44%, 60.00% 93.29%, 62.00% 94.11%, 64.00% 94.89%, 66.00% 95.59%, 68.00% 96.21%, 70.00%
+    96.72%, 72.00% 97.12%, 74.00% 97.39%, 76.00% 97.52%, 78.00% 97.52%, 80.00% 97.37%, 82.00% 97.10%, 84.00% 96.69%,
+    86.00% 96.17%, 88.00% 95.54%, 90.00% 94.83%, 92.00% 94.05%, 94.00% 93.22%, 96.00% 92.37%, 98.00% 91.52%, 100.00%
+    90.69%);
+}
+
+.bg--overlay {
+    width: 100%;
+    height: inherit;
+    background: rgba(57, 57, 57, 0.2);
 }
 
 /* Navigation for mobile devices */
