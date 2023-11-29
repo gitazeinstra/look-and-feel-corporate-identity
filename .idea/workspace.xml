@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="403b0154-d305-42b4-8256-1a1710b0c38f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/waterton.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
@@ -76,7 +78,9 @@
       <workItem from="1700663149078" duration="3349000" />
       <workItem from="1700833576969" duration="1234000" />
       <workItem from="1700846107343" duration="652000" />
-      <workItem from="1700915079463" duration="1448000" />
+      <workItem from="1700915079463" duration="2247000" />
+      <workItem from="1701096168729" duration="10553000" />
+      <workItem from="1701253197933" duration="1801000" />
     </task>
     <servers />
   </component>

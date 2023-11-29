@@ -57,6 +57,13 @@
                 <li>
                     <a href="#contact" class="nav__link">Contact</a>
                 </li>
+                <li>
+                    <div class="high-contrast__wrapper nav__link">
+                        <span class="toggle--title">High contrast</span>
+                        <input type="checkbox" id="toggle-high-contrast" />
+                        <label class="toggle--label" for="toggle-high-contrast"></label>
+                    </div>
+                </li>
             </ul>
         </div>
     </nav>
@@ -65,11 +72,16 @@
 
 <!-- landing page -->
 <section class="home" id="home">
-    <!--  grey background overlay  -->
-    <div class="bg--overlay"></div>
+
+    <img src="assets/img/waterton.svg" class="waterton" alt="waterton">
 
     <div class="home__wrapper">
-        <h1>b-RAIN</h1>
+        <h1 data-aos="zoom-in">b-RAIN</h1>
+        <h2 data-aos="zoom-in">Wees slim met ons water, be b-RAIN!</h2>
+        <div class="home__buttons" data-aos="fade-up">
+            <a href="#project">Meer info</a>
+            <a href="#contact">Contact</a>
+        </div>
     </div>
 
 </section>
