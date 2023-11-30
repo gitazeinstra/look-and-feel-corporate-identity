@@ -1,8 +1,4 @@
 
-AOS.init({
-    duration: 1200,
-})
-
 /*Mobile navbar*/
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
@@ -51,3 +47,7 @@ toggleButton.addEventListener("click", function() {
         background[i].classList.toggle("background--contrast");
     }
 });
+
+AOS.init({
+    duration: 1200,
+})
