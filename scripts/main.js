@@ -1,4 +1,3 @@
-window.addEventListener('load', AOS.refresh)
 
 AOS.init({
     duration: 1200,
@@ -41,10 +40,14 @@ window.addEventListener('scroll', function () {
 });
 
 // high contrast
-var toggleButton = document.getElementById("toggle-high-contrast");
+const toggleButton = document.getElementById("toggle-high-contrast");
+const text = document.querySelector(".h2--contrast");
+const background = document.querySelectorAll(".buttons--contrast");
 
 toggleButton.addEventListener("click", function() {
-    var home = document.querySelector(".home");
+    text.classList.toggle("color--contrast");
 
-    home.classList.toggle("high-contrast");
+    for (let i = 0; i < background.length; i++) {
+        background[i].classList.toggle("background--contrast");
+    }
 });
