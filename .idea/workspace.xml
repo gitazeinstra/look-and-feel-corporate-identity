@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="403b0154-d305-42b4-8256-1a1710b0c38f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/waterton.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/waterton_2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +80,10 @@
       <workItem from="1700915079463" duration="2247000" />
       <workItem from="1701096168729" duration="10553000" />
       <workItem from="1701253197933" duration="1801000" />
+      <workItem from="1701276535753" duration="1424000" />
+      <workItem from="1701279764234" duration="1844000" />
+      <workItem from="1701331865501" duration="204000" />
+      <workItem from="1701357513644" duration="5665000" />
     </task>
     <servers />
   </component>
