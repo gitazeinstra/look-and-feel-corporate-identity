@@ -1,3 +1,9 @@
+window.addEventListener('load', AOS.refresh)
+
+AOS.init({
+    duration: 1200,
+})
+
 /*Mobile navbar*/
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
